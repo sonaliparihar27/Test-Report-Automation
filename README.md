@@ -1,33 +1,49 @@
 # 🤖 Automated Test Report Validator (Python)
 
 ## 📌 Overview
-Automates validation of automotive test reports by comparing INCA and SEM data.
+This project automates the validation of automotive test reports by comparing data from INCA and SEM systems against predefined specifications.
+
+The solution eliminates manual comparison and generates instant OK/NG results.
+
+> ⚠️ Note: This repository uses sample data due to confidentiality restrictions.
 
 ---
 
 ## 🎯 Objective
-- Compare datasets against expected values
-- Generate OK/NG results automatically
-- Eliminate manual validation
+- Automate comparison of test datasets
+- Validate values against expected limits
+- Generate OK/NG decisions
+- Auto-fill Excel test reports
 
 ---
 
-## 🛠 Tools
-- Python
+## 🛠 Tools & Technologies
+- Python (pandas)
 - openpyxl
-- pandas
+- Excel automation
 
 ---
 
-## ⚙️ Work Done
-- Built data processing pipeline
-- Automated parameter mapping
-- Implemented validation logic
-- Generated final Excel reports
+## ⚙️ Methodology
+
+### 1️⃣ Data Processing Pipeline
+- Read INCA and SEM files
+- Normalize parameter names across systems
+- Align datasets for comparison
 
 ---
 
-## 📈 Impact
-- Removed manual effort
-- Improved accuracy
-- Faster report generation
+### 2️⃣ Parameter Mapping
+- Handled different naming conventions
+- Mapped parameters between systems
+- Ensured consistent comparison
+
+---
+
+### 3️⃣ Validation Logic
+Applied rule-based validation:
+- Threshold checks
+- Min/Max boundaries
+- Tolerance comparison
+
+Example logic:
