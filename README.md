@@ -46,4 +46,51 @@ Applied rule-based validation:
 - Min/Max boundaries
 - Tolerance comparison
 
-Example logic:
+---
+
+### 4️⃣ Excel Automation
+- Loaded predefined report template
+- Auto-filled:
+  - Expected values
+  - Actual values
+  - Results (OK/NG)
+  - Remarks
+- Applied conditional formatting
+
+---
+
+### 5️⃣ Output Generation
+- Generated fully completed test report
+- Color-coded results:
+  - 🟩 OK
+  - 🟥 NG
+
+---
+
+## 📊 Sample Output
+- Completed Excel test report
+- Automated validation results
+- Ready-to-use engineering document
+
+---
+
+## 🚧 Challenges Faced
+- Handling different data formats (INCA vs SEM)
+- Parameter mapping complexity
+- Defining accurate validation rules
+- Ensuring reliability of automation
+
+---
+
+## 📈 Impact
+- Eliminated manual validation effort
+- Improved accuracy of test results
+- Reduced processing time significantly
+- Scalable solution for multiple variants
+
+---
+
+## 🚀 Future Improvements
+- Add GUI for user interaction
+- Support more file formats
+- Integrate with real-time systems
