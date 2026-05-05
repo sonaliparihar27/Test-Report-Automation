@@ -1,4 +1,4 @@
-## explaination
+## Explaination
 One of my key projects was building an Automated Test Report Validator. Previously, teams had to manually compare test parameters from two systems, INCA and SEM, against specifications, which was slow and error-prone.
 
 I developed a Python-based automation pipeline that read raw files, standardized and mapped parameters across systems, and applied rule-based validation with threshold and tolerance checks. I then automated the reporting process using openpyxl, generating Excel reports with conditional formatting for quick review.
