@@ -1,20 +1,9 @@
-# 🤖 Automated Test Report Validator (Python)One of the projects I worked on was an Automated Test Report Validator, where the goal was to automate the validation of test reports by comparing data from two different source systems against predefined specifications.
+## explaination
+One of my key projects was building an Automated Test Report Validator. Previously, teams had to manually compare test parameters from two systems, INCA and SEM, against specifications, which was slow and error-prone.
 
-The main problem was that test report validation was being done manually. Data was coming from two systems, INCA and SEM, and the team had to compare parameter values manually, check whether they were within expected limits, and then fill the final test report in Excel. This process was time-consuming, repetitive, and prone to manual errors.
+I developed a Python-based automation pipeline that read raw files, standardized and mapped parameters across systems, and applied rule-based validation with threshold and tolerance checks. I then automated the reporting process using openpyxl, generating Excel reports with conditional formatting for quick review.
 
-To solve this, I built a Python-based automation solution that automated the complete validation workflow.
-
-First, I created a data processing pipeline to read raw files from both INCA and SEM systems. Since both systems had different formats and naming conventions, I standardized the data and normalized parameter names to make the datasets comparable.
-
-Next, I built parameter mapping logic to align related parameters across both systems, because the same parameter often had different names in different sources. This step was important to ensure accurate comparison.
-
-Once the data was aligned, I implemented rule-based validation logic. I applied checks such as threshold validation, min-max boundary checks, and tolerance comparisons to determine whether each parameter was within expected limits.
-
-After validation, I automated the Excel reporting process using openpyxl. The script loaded a predefined Excel template and automatically populated expected values, actual values, validation results, and remarks. I also added conditional formatting so the final report was easy to interpret, where OK values were highlighted in green and NG values in red.
-
-The final output was a fully completed and ready-to-use test report generated automatically, without manual comparison.
-
-This project significantly reduced manual effort, improved accuracy, and made the validation process much faster and more reliable. It also created a scalable solution that could be reused for multiple test variants with minimal manual intervention
+The result was a fully automated workflow that reduced report preparation time from several hours to just minutes, improved accuracy, and provided a scalable solution for faster test reporting.”
 
 ## 📌 Overview
 This project automates the validation of automotive test reports by comparing data from INCA and SEM systems against predefined specifications.
